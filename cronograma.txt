@@ -1,0 +1,77 @@
+Primer día de trabajo: 
+
+	Dia 28 / Diciembre  -> Tiempo: de 16:30 a 21:00 -> Trabajo en grupo vía Skype los 4
+
+		- Realización de un json de prueba con 5 alumnos
+		- Lectura del Json desde codigo 
+		- Evaluación de las características de cada alumno y asignación de perfiles y roles
+		- En proceso a dia de hoy: reparto de grupos teniendo en cuenta perfiles y roles. 
+
+		Los diferentes pasos se han pensado en común, usando como plataforma para la actualización
+		de los diferentes archivos a utilizar la nube de Google Drive. 
+
+Segundo día de trabajo:
+
+	Día 29 / Diciembre -> Tiempo: de 10:30 am hasta las 13:30 -> Trabajo en grupo vía Skype los 4
+	
+		- Creación de tabla de roles
+		- Creación de tabla de grupos 
+		- Asignación de alumnos a grupos teniendo en cuenta el rol
+		- Eliminación de aquellos alumnos asignados con un rol de la tabla roles ya que poseen más de 1 rol. 
+
+	Los diferentes pasos se han pensado en común, usando como plataforma para la actualización
+	de los diferentes archivos a utilizar la nube de Google Drive. 
+
+Tercer día de trabajo: 
+
+	Día 3 / Enero 2018 -> Tiempo: de 16:15 pm hasta las 20:00 -> Trabajo en grupo vía Skype los 4
+
+		- Comprobación de puntos en los diferentes grupos
+		- Balanceo de grupos teniendo en cuenta el ROL y el PERFIL
+
+	Los diferentes pasos se han pensado en común, usando como plataforma para la actualización
+	de los diferentes archivos a utilizar la nube de Google Drive. 
+
+Cuarto día de trabjo:
+
+	Día 4 / Enero 2018 -> Tiempo de 16:00 a 18:30 -> Trabajo en grupo vía Skype los 4
+	
+		- Balanceo de grupos en relación las preferencias que tienen los alumnos de con quien 
+		  quieren sentarse y con quien no. 
+
+	Los diferentes pasos se han pensado en común, usando como plataforma para la actualización
+	de los diferentes archivos a utilizar la nube de Google Drive.
+
+Quinto día de trabajo:
+
+	Día 8 / Enero 2018 -> Tiempo de 16:00 a 00:00 -> Trabajo en grupo vía Skype los 4
+
+		- Balanceo de grupos en relación al sexo. 
+		- Inicio del diseño de la pagina web.
+		- Inicio y creación del ESB.
+		- Corrección de fallos del algoritmo.	
+		- Creación de la memoria en documento word. 
+
+	Los diferentes pasos se han pensado en común, usando como plataforma para la actualización
+	de los diferentes archivos a utilizar la nube de Google Drive. 
+
+Sexto día de trabajo: 
+	
+	Día 9 / Enero 2018 -> Tiempo de 16:00 a 18:30 -> Trabajo en grupo vía Skype los 4
+
+		- Mostrar el listado de los alumnos
+		- Mostrar el listado de grupos
+		- Mostrar listado de alumnos que sobran 
+		- Ordenación de código
+		- Separar el css
+
+	Los diferentes pasos se han pensado en común, usando como plataforma para la actualización
+	de los diferentes archivos a utilizar la nube de Google Drive. 
+
+Séptimo día de trabajo: 
+
+	Día 10 / Enero 2018 -> Tiempo de 16:00 a 20:00 -> Trabajo en grupo vía Skype los 4
+
+		- Añadir alumnos sobrantes a grupos bien formados
+		- Estilizar diseño de la interfaz de la aplicación
+		- Comprobación de la existencia de un archivo json
