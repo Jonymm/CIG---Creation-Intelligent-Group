@@ -33,8 +33,57 @@
  
         </div>
 
-
+		<a name="arriba"></a>
         <h1 class ="h1Medio">LISTADO DE ALUMNOS</h1>
+		 
+		 
+		 <?php 
+			/* Total de alumnos */
+			/*  array_push($roles, $Coordinators);
+				array_push($roles, $Environments);
+				array_push($roles, $Speakers);
+				array_push($roles, $Supervisors);
+			*/
+			
+			
+			$totalDeCoordiators = sizeof($Coordinators); 
+			$totalDeEnvironments = sizeof($Environments); 
+			$totalDeSpeakers = sizeof($Speakers); 
+			$totalDeSupervisors = sizeof($Supervisors); 
+			
+			$sumaTotalDeRol = $totalDeCoordiators + $totalDeEnvironments + $totalDeSpeakers + $totalDeSupervisors;
+	
+			
+			/*Hay que hacer el tanto por ciento de cada uno*/
+			$PorcentajeCoordinators = ($totalDeCoordiators * 100) / $sumaTotalDeRol;
+			$PorcentajeEnvironments = ($totalDeEnvironments * 100) / $sumaTotalDeRol;
+			$PorcentajeSpeakers = ($totalDeSpeakers * 100) / $sumaTotalDeRol;
+			$PorcentajeSupervisors = ($totalDeSupervisors * 100) / $sumaTotalDeRol;
+			
+			
+			/*  */
+		 ?>
+		 <div class="w3-container">
+			 <p class="w3-wide"><i class="fa fa-user"></i>Coordinators</p>
+			 <div class="w3-light-grey">
+				<div class="w3-container w3-padding-small w3-red w3-center" style="width:<?= $PorcentajeCoordinators ?>%"><?= round($PorcentajeCoordinators, 2)  ?>%</div>
+			 </div>
+			 
+			 <p class="w3-wide"><i class="fa fa-user"></i>Environments</p>
+			 <div class="w3-light-grey">
+				<div class="w3-container w3-padding-small w3-red w3-center" style="width:<?= $PorcentajeEnvironments ?>%"><?= round($PorcentajeEnvironments, 2)  ?>%</div>
+			 </div>
+			 
+			 <p class="w3-wide"><i class="fa fa-user"></i>Speakers</p>
+			 <div class="w3-light-grey">
+				<div class="w3-container w3-padding-small w3-red w3-center" style="width:<?= $PorcentajeSpeakers ?>%"><?= round($PorcentajeSpeakers, 2) ?>%</div>
+			 </div>
+			 
+			 <p class="w3-wide"><i class="fa fa-user"></i>Supervisors</p>
+			 <div class="w3-light-grey">
+				<div class="w3-container w3-padding-small w3-red w3-center" style="width:<?= $PorcentajeSupervisors ?>%"><?= round($PorcentajeSupervisors, 2) ?>%</div>
+			 </div>
+		 </div>
 
         <table class="w3-table-all">
             <thead>
@@ -95,7 +144,7 @@
         </table>
 		
 	<!-- Footer -->
-	<footer class="w3-center w3-red w3-padding-64 w3-opacity w3-hover-opacity-off">
+	<footer class="w3-center w3-red w3-padding-64">
 	  <a href="#arriba" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Ir arriba</a>
 	  <div class="w3-xlarge w3-section">
 		<i class="fa fa-facebook-official w3-hover-opacity"></i>

@@ -30,6 +30,11 @@
 
         $alumnosAgrupados = $alumnosTotales[0];
         $alumnosSobrantes = $alumnosTotales[1];
+		$Coordinators = $alumnosTotales[2];
+		$Environments = $alumnosTotales[3];
+		$Speakers = $alumnosTotales[4];
+		$Supervisors = $alumnosTotales[5];
+		
 
         //Introducimos en la tabla los alumnos sobrantes
         introducirAlumnosSobrantes($alumnosSobrantes, $alumnosAgrupados);

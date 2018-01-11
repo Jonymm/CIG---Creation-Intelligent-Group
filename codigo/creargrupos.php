@@ -118,7 +118,7 @@
 	</div>
 	
 	<!-- Footer -->
-	<footer class="w3-center w3-red w3-padding-64 w3-opacity w3-hover-opacity-off">
+	<footer class="w3-center w3-red w3-padding-64">
 	  <a href="#arriba" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Ir arriba</a>
 	  <div class="w3-xlarge w3-section">
 		<i class="fa fa-facebook-official w3-hover-opacity"></i>

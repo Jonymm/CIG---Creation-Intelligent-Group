@@ -318,6 +318,13 @@
         $alumnosTotales = array();
         array_push($alumnosTotales,$grupos);
         array_push($alumnosTotales,$alumnosSobrantes);
+		
+		/*  Para poder sacar los porcentajes añadimos una campo más por cada rol 
+			al array de alumnostotales */
+		array_push($alumnosTotales, $Coordinators);
+		array_push($alumnosTotales, $Environments);
+		array_push($alumnosTotales, $Speakers);
+		array_push($alumnosTotales, $Supervisors);
 
         return $alumnosTotales;
     }
